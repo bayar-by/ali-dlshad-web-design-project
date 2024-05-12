@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Auto Parts</title>
+    <style>
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; 
+            color: #000; 
+        }
+        header {
+            background-color: #070740; 
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color:  #070740; 
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffa500;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .product {
+            
+            display: inline-block;
+            width: 200px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            transition: transform 0.3s;
+            color: #000;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 150px;
+            height: 150px;
+            
+        }
+        footer {
+            background-color: #070740; 
+            color: #fff;
+            padding: 20px;
+            text-align: right; 
+        }
+        .contact-info {
+            padding-bottom:50px;
+            color: #fff;
+            text-align: left;
+        }
+        .circle {
+            background-color: #070740;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-top: 10px;
+            position: relative;
+        }
+        .logo img {
+    max-width:150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    background-color: beige;
+}
+
+.logo img:hover {
+    transform: rotate(360deg);
+    
+}
+.about {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .circle img {
+             position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8); 
+        }
+
+        .buy-button {
+         
+   
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .buy-button:hover {
+            background-color: #45a049;
+    transform: translateY(-3px);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="BMA3.gif" alt="AUTO PARTS">
+            </div>
+            <div class="fitqa7pa">
+               
+            </div>
+        </div>
+    </header>
+    <header>
+        <h1>BMA Auto Parts</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="web.html" class="about">Home</a></li>
+            <li><a href="about.html" class="about">About</a></li>
+            <li><a href="products.html" class="about">Products</a></li>
+            <li><a href="contact.html" class="about">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Our Products</h2>
+
+        
+        <div class="product">
+            <img src="part1.jpg" alt="Product 1">
+            <p>DB Electrical 400-48213 Alternator Compatible With/Replacement</p>
+            <p>$89.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+
+      
+        
+        <div class="product">
+            <img src="part2.jpg" alt="Product 2">
+           
+            <p>Dorman 600-405 Independent Wheel End Coupler (Vacuum Delete Kit) </p>
+            <p> $79.99</p>
+
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="part3.jpg" alt="Product 3">
+            
+            <p> Radiator Compatible with Chevy Silverado Suburban GMC Yukon</p>
+            <p>$149.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="part4.jpg" alt="Product 4">
+            
+            <p>ACDelco Silver 18A2497A Front Disc Brake Rotor for ford Raptor</p>
+            <p> $39.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part5.jpg" alt="Product 5">
+            
+            <p>Detroit Axle Front Brake Kit for Toyota RAV4 [w/3rd Row Seating ONLY]</p>
+            <p>$59.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+
+        
+        <div class="product">
+            <img src="auto part6.jpg" alt="Product 6">
+            
+            <p>
+                EPAuto CP285 Premium Cabin Air Filter includes Activated Carbon</p>
+            <p>$12.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part7.jpg" alt="Product 7">
+            
+            <p>Air Filter: Compatible with 2019 (Jeep Cherokee, 3.2L V6 and 2.4L L4)</p>
+            <p> $19.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part8.jpg" alt="Product 8">
+            
+            <p>5pce Gas Shock Absorber Damper Set for Toyota Hilux IFS 4x4 LN107 LN167 </p>
+            <p> $119.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part9.avif" alt="Product 9">
+            
+            <p>Cadillac xts Front Bumper assembly Front face assembly for Cadillac xts</p>
+            <p> $799.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part10.avif" alt="Product 10">
+            
+            <p>Bomba de gasolina Electric Fuel Pump 2068 Oil Pump for Toyota Honda Nissan</p>
+            <p> $59.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part11.avif" alt="Product 11">
+            
+            <p>Auto Car Parts Upgraded Lamp For Bmw X1 E84 Led Headlight 2009-2016 Year </p>
+            <p> $299.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part12.avif" alt="Product 12">
+            
+            <p>12V led car head lamp auto parts for VW Golf7/ VW Golf 7.5</p>
+            <p>$379.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part13.avif" alt="Product 13">
+            
+            <p>car body parts LED headlight for TOYOTA Camry xv70 2018-2023 ultra bright</p>
+            <p>$479.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part14.avif" alt="Product 14">
+            
+            <p>12.3" Linux LCD Digital Speed Cluster Meter For BMW 520d F10 X5 F15 X6 F16 </p>
+            <p>$449.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part15.avif" alt="Product 15">
+            
+            <p>Classical M Performance For F30/M3 X3 X4 X5 X6 Full Leather Sport Steering Wheels</p>
+            <p>Price: $35</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part16.avif" alt="Product 16">
+            
+            <p>BMW X6 G06 Front bar assembly without radiator fan headlights door fenders</p>
+            <p>$3199</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part17.avif" alt="Product 17">
+            
+            <p>bmw X5 G05 2020-2022 used Bumper Auto body kit parts front bumper</p>
+            <p> $699.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part18.avif" alt="Product 18">
+            
+            <p>BMW X5 taillight assembly G05 2019-2023 modified high-end LED running lights</p>
+            <p> $549.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part19.avif" alt="Product 19">
+            
+            <p>Mercedes-Benz E-Class series E300 E350 W212 213 has been revamped</p>
+            <p> $299.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+        <div class="product">
+            <img src="auto part20.avif" alt="Product 20">
+            
+            <p>Mercedes Benz W222 S Class S300 S350 S500 S63 S65 Year 2014-2017</p>
+            <p> $399.99</p>
+            <button class='buy-button' onclick="location.href='product5.html';">Buy</button>
+        </div>
+    </section>
+    <footer>
+        <div class="contact-info">
+            <p>Phone: +964 07704488315</p>
+            <p>Email: info@BMAautoparts.com</p>
+            <p>Address: 123 Main Street, Erbil, Iraq</p>
+            <p>Working Hours: Monday to Friday, 9:00 AM - 5:00 PM</p>
+        </div>
+        <img src="BMA.jpg" alt="Logo" class="circle">
+    </footer>
+</body>
+</html>

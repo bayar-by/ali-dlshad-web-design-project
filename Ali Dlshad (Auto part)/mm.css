@@ -1,0 +1,140 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color:  #430164a8;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        background-image: url('b.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
+        background-repeat: repeat; /* Do not repeat the background image */
+
+    
+    }
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #430164a8; /* Initial background color */
+    color: beige; /* Initial text color */
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect for background color and text color */
+}
+
+header:hover {
+    background-color: #430164; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    text-shadow: 2px 2px 4px rgb(255, 219, 12); /* Add text shadow on hover */
+}
+
+
+.logo img {
+    max-width: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    background-color: beige;
+}
+
+.logo img:hover {
+    transform: rotate(360deg);
+    
+}
+
+.bahjat h1 {
+    font-size: 40px;
+}
+
+.item-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo {
+    display: inline-block; /* Display photos next to each other */
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgb(2, 20, 138);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Add margin-right to create space between photos */
+.photo + .photo {
+    margin-left: 20px;
+}
+
+.photo:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.photo:hover {
+    transform: translateY(-10px);
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
+.photo-details {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.photo-details:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.photo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.photo p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
